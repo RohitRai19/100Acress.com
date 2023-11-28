@@ -1,0 +1,14 @@
+
+.Luxusuries{
+display: flex;
+flex-direction: column;
+}
+
+.lux-images{
+    border: 2px solid red;
+}
+
+.lux-images img{
+    width: 100%;
+    height: 100%;
+}

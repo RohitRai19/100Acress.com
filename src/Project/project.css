@@ -1,0 +1,74 @@
+.Gurgaon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+ 
+}
+.imgdiv{
+
+    position: relative;
+    border-radius: 3px;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+   
+}
+
+.imgdiv img{
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 3px;
+    width: 290px;
+    transition:  .5s; 
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.imgdiv img:hover{
+   transform: scale(0.9);
+}
+.Gurgaon-prop{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+   
+}
+.Prop-title{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    /* border: 2px solid yellow; */
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0,.7);
+    text-align: start;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.title{
+    color:#999 ;
+    }
+.subtitle{
+    color:#fff;
+}
+
+.topHeading{
+    margin-top: 20px;
+    font-size: bold;
+    color: #d22129;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.topSubHeading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
