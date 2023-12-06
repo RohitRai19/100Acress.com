@@ -12,7 +12,7 @@ function App() {
 <Project Img={Gurgaon} title={"UPCOMING PROJECTS IN GURGAON"} subtitle={"BUY UPCOMING PROJECTS IN GURGAON"}  />
 <Project Img={FutureGurgaon} title={"LUXURY PROPERTY IN GURGAON"} subtitle={"BEST APARTMENTS TO BUY IN GURGAON"}ImageHeight={"300px"} />
 <Project Img={Delhi} title={"PROPERTY IN DELHI"} subtitle={"BEST PROPERTY TO BUY IN DELHI"}  />
-<Luxusury/>
+<Luxusury  title={"PROPERTY IN GURGAON"} subtitle={"LUXURIOUS PROPERTIES IN GURGAON"}/>
     </> 
   )
 }

@@ -2,13 +2,95 @@
 .Luxusuries{
 display: flex;
 flex-direction: column;
+text-align: center;
+padding: 20px;
+
 }
 
-.lux-images{
-    border: 2px solid red;
+
+.lux-prop{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    cursor: pointer;
+    
 }
 
-.lux-images img{
+.image-container{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.image-container:hover{
+    background: red;
+}
+.imagediv{
+    /* width: 30%;
+    height: 300px; */
+
+}
+.imagediv:hover{
+    /* background: rgba(0,0,0,.1); */
+    /* background: red;
+    z-index: 1; */
+  
+}
+.imagediv img{
     width: 100%;
     height: 100%;
+ 
 }
+.lux-images{
+    border: 2px solid red;
+    width: 500px;
+
+}
+
+/* .lux-images img{
+    width: 100%;
+    height: 100%;
+} */
+.lux-text{
+   position: absolute;
+    text-align: center;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    padding: 80px 25px;
+    transition: all .2s ease-in-out;
+    border: 1px solid rgba(226,186,120,.5);
+}
+.Lux-title{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.Lux-subtitle{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size: 25px;
+    font-weight: 300;
+}
+.View-Property{
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 300;
+    /* content: " "; */
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    /* z-index: 2; */
+    /* bottom: 0; */
+
+}
+/* .View-Property{
+content: "View Property";
+} */
